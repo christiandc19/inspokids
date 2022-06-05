@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/inspokids/static/css/main.1f70f298.css",
+    "main.js": "/inspokids/static/js/main.f1a5c434.js",
+    "static/media/Logo.jpg": "/inspokids/static/media/Logo.f7a8e026046678bc6f0c.jpg",
+    "index.html": "/inspokids/index.html",
+    "main.1f70f298.css.map": "/inspokids/static/css/main.1f70f298.css.map",
+    "main.f1a5c434.js.map": "/inspokids/static/js/main.f1a5c434.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f70f298.css",
+    "static/js/main.f1a5c434.js"
+  ]
+}
