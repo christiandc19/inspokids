@@ -1,3 +1,9 @@
 .logo-container {
     text-align: center;
 }
+
+.carousel-img {
+    width: 50%;
+    align-items: center;
+    margin-top: 5rem;
+}
