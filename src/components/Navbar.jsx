@@ -6,7 +6,7 @@ import About from './about/About';
 import Gallery from './gallery/Gallery';
 import Contact from './contact/Contact';
 
-export default function PortfolioContainer() {
+export default function NavContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
   // TODO: Add a comment describing the functionality of this method

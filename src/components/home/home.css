@@ -1,9 +1,29 @@
-.logo-container {
-    text-align: center;
+
+
+
+.home_banner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5rem;
 }
 
-.carousel-img {
-    width: 50%;
-    align-items: center;
-    margin-top: 5rem;
+.quote {
+    width: 50%;    
+}
+
+.quote p {
+    margin: 3rem;
+}
+
+.banner_image {
+    width: 40%;
+}
+
+.banner_image img {
+    width: 100%;
+}
+
+.quote_intro {
+    font-size: 3rem;
 }
