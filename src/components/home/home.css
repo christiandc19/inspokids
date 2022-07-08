@@ -1,4 +1,8 @@
 
+.bg-home {    
+    background-image: url("../../assets/bg2.jpg");
+}
+   
 
 
 .home_banner {
@@ -6,11 +10,25 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 5rem;
+
 }
 
 .quote {
     width: 50%;    
 }
+
+.learn-more{
+margin-left: 3rem;
+text-decoration: none;
+font-size: larger;
+font-family: 'Poppins', sans-serif;
+background-color: rgb(22, 22, 199);
+width: 5rem;
+color: white;
+border-radius: 10px;
+padding: .5rem 2rem .5rem 2rem; 
+}
+
 
 .quote p {
     margin: 3rem;
