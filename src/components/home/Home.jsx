@@ -14,8 +14,37 @@ import './home.css'
 function Home() {
   return (
 
-    // ------------------------------------------------------------------------ CARDS --------------------------------------------------------------------------------------
+
+
+
+    
 <>
+     {/* ------------------------------------------------------------------------ FADE -------------------------------------------------------------------------------------- */}
+
+     <hr className='container'/>
+
+<div className='home_banner'>
+      <div className='quote'>
+        <Fade left>
+                <blockquote>
+                    <p>
+                      <span className='quote_intro'>"Every Child Deserves a Champion</span><br />
+                      an adult who will never give up on them, who understands the power of 
+                      connection and insists that they become the best they can possibly be." - Rita F. Pierson! 
+                    </p><br />
+                    <a className='learn-more' href="#">Learn More</a>
+                </blockquote>
+        
+        </Fade>
+        </div>
+                <div className='banner_image'>
+                    <img src={ Banner } alt="" />
+                </div>
+</div>
+
+
+{/* ------------------------------------------------------------------------ CARDS -------------------------------------------------------------------------------------- */}
+
 <hr className='container'/>
 <div className='main'>
     <CardStyle1 
@@ -37,31 +66,7 @@ function Home() {
     />
     </div>
 
-     {/* ------------------------------------------------------------------------ FADE -------------------------------------------------------------------------------------- */}
 
-
-    <hr className='container'/>
-
-    <div className='home_banner'>
-          <div className='quote'>
-            <Fade left>
-                    <blockquote>
-                        <p>
-                          <span className='quote_intro'>"Every Child Deserves a Champion</span><br />
-                          an adult who will never give up on them, who understands the power of 
-                          connection and insists that they become the best they can possibly be." - Rita F. Pierson! 
-                        </p><br />
-                        <a className='learn-more' href="#">Learn More</a>
-                    </blockquote>
-            
-            </Fade>
-            </div>
-                    <Fade right>
-                    <div className='banner_image'>
-                        <img src={ Banner } alt="" />
-                    </div>
-                    </Fade>
-    </div>
 
     {/* ----------------------------------------------------------------------- FOOTER ----------------------------------------------------------------------------------------------- */}
     

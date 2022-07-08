@@ -12,3 +12,8 @@
 .service-img1 {
     border: 1px solid green;
 }
+
+.services-header {
+    text-align: center;
+    width: 30%;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../footer/Footer.jsx';
 import Fade from 'react-reveal/Fade';
 import './services.css';
 
@@ -6,10 +7,14 @@ import './services.css';
 class Services extends React.Component {
   render() {
     return (
-
+<>
+      <div className='container services-header'>
+      <h5>Our Services</h5>
+      <h1>What We Offer</h1>
+      <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+      </div>
+        <br />
       <div>
-          <h1>React Reveal</h1>
-
           <div className='container services-container'>
 
             <Fade left>
@@ -26,7 +31,8 @@ class Services extends React.Component {
 
           </div>
       </div>
-
+      <Footer/>
+</>
     );
   }
 }
